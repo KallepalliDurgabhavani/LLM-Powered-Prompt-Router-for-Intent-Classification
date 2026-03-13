@@ -1,0 +1,9 @@
+.env
+.agent/
+.venv/
+task-requirements.md
+task-plan.md
+image.png
+archive/
+
+__pycache__

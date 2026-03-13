@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  prompt-router:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - MODEL_NAME=${MODEL_NAME:-gemini-2.5-flash}
+      - CLASSIFIER_MODEL=${CLASSIFIER_MODEL:-gemini-2.5-flash}
+    env_file:
+      - .env
