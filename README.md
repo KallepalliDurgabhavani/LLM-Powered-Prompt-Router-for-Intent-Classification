@@ -8,7 +8,6 @@ An intelligent, intent-based routing service that classifies user requests and d
 
 The system follows a modular "Classify-then-Respond" design pattern. This ensures that user requests are handled by the most relevant "Expert Persona" rather than a generic monolithic prompt.
 
-![Architecture Diagram](src/image.png)
 
 ### Core Components
 
